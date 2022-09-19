@@ -6,9 +6,9 @@ int main()
 {
     int *b = new int[N_ELEMENTS];
     std::cout << "1-100 ertekek duplazasa";
-    for (int i = 0;)
+    for (int i = 0; i < N_ELEMENTS + 1; i++)
     {
-        b[i] = i * 2;
+        b[i - 1] = i * 2;
     }
     for (int i = 0; i; i++)
     {
